@@ -1,0 +1,9 @@
+# Phase 0–1 dependencies (all free, open source)
+pyodbc>=5.1          # talks to SQL Server through the ODBC driver
+SQLAlchemy>=2.0      # standard database toolkit; pandas reads through it
+pandas>=2.2          # tabular data in memory
+pyarrow>=16.0        # Parquet files (our destination format)
+duckdb>=1.0          # query Parquet with SQL + stores our run metadata
+python-dotenv>=1.0   # loads settings from the .env file
+Faker>=25.0          # generates realistic fake data for the source
+pytest>=8.0          # tests
